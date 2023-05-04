@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div id="header">
+      <div>
+        <a href="#" class="logo"> Haroon</a>
+      </div>
+      <nav id="nav-menu" class="navbar">
+        <ul>
+          <li><a class="active nav-link home" href="#home">Home</a></li>
+          <li><a class="nav-link about" href="#about">About</a></li>
+          <li><a class="nav-link skills" href="#skills">Skills</a></li>
+          <li><a class="nav-link projects" href="#projects">Projects</a></li>
+          <li><a class="nav-link contact" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <button id="resume-button-1">
+          <a
+            id="resume-link-1"
+            href="images/Md-Haroon-Hussain-Resume.pdf.pdf"
+            download
+            onclick="window.open('images/Md-Haroon-Hussain-Resume.pdf.pdf')"
+            class="btn nav-link resume"
+            ><span>Resume</span>
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </button>
+      </div>
+    </div>
+    <!-- navbar  -->
+
+    <div id="home">
+      <div id="basic-info">
+        <div>
+          <h1>Hii There,</h1>
+          <h1 id="user-detail-name">I'm Md Haroon Hussain</h1>
+          <h3>
+            <a href="https://git.io/typing-svg"
+              ><img
+                src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=0B2447&width=500&lines=A+Full+Stack+Web+Developer"
+                alt="Typing SVG"
+            /></a>
+          </h3>
+          <a href="#about" class="btn"
+            ><span>About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
+          </a>
+        </div>
+        <div id="logo">
+          <img src="images/logo2.jpg" alt="error" />
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="about section">
+      <button id="resume-button-2">
+        <a
+          id="resume-link-2"
+          href="images/Md-Haroon-Hussain-Resume.pdf.pdf"
+          download
+          onclick="window.open('images/Md-Haroon-Hussain-Resume.pdf.pdf')"
+          class="btn nav-link resume"
+          ><span>Resume</span>
+          <i class="fa-solid fa-download"></i>
+        </a>
+      </button>
+      <p id="user-detail-intro">A Full Stack Web Developer</p>
+    </div>
+
+    <div id="skills"></div>
+    <div id="projects"></div>
+    <div id="contact">
+      <div class="box">
+        <h3>contact info</h3>
+        <p id="contact-phone"><i class="fas fa-phone"></i>+91 8340612137</p>
+        <p id="contact-email">
+          <i class="fas fa-envelope"></i>haroonhussain97@gmail.com
+        </p>
+        <p><i class="fas fa-map-marked-alt"></i>Patna, Bihar</p>
+        <div class="share">
+          <a
+            id="contact-linkedin"
+            href="https://www.linkedin.com/in/md-haroon-hussain-b730561b3/"
+            class="fab fa-linkedin"
+            aria-label="LinkedIn"
+            target="_blank"
+          ></a>
+          <a
+            id="contact-github"
+            href="https://github.com/mdharoonhussain"
+            class="fab fa-github"
+            aria-label="GitHub"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="index.js"></script>

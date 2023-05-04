@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+/* Navbar styling */
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin-top: 1.2rem;
+}
+
+.logo {
+  font-size: 3.2rem;
+
+  text-decoration: none;
+  margin-right: 50px;
+  color: #0b2447;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  color: #0b2447;
+  font-weight: bold;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+#resume-button-1 {
+  padding: 1.4rem 4rem;
+  background-color: #0b2447;
+
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#resume-button-1 a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+}
+#resume-button-1:hover {
+  background-color: #0b2447;
+}
+
+/* Navbar styling */
+
+/* HOME SECTION */
+#basic-info {
+  color: #0b2447;
+  font-family: "Boogaloo", cursive;
+  font-size: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+#basic-info .btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  border: 2px solid #0b2447;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #0b2447;
+  font-size: 1.8rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#basic-info .btn:hover {
+  background-color: #0b2447;
+  color: white;
+}
+
+#basic-info .btn span {
+  margin-right: 10px;
+}
+
+#basic-info .btn i {
+  font-size: 2rem;
+}
+
+
+#logo {
+  width: 40%;
+  height: 0%;
+}
