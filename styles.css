@@ -22,17 +22,13 @@ body{
   padding: 3px 5px 3px 5px;
   width: 100%;
   z-index: 3;
-  background-color: rgb(173,216,230); 
+  /* background-color: rgb(173,216,230);  */
+  background-color: rgb(100,149,237);
 }
 #resume-button-1 ,#resume-button-2{
-  border-radius: 7px;
-  border: 2px solid #be3144;
+  border-radius: 5px;
 }
-/* .nav-colored {
-  background-color: #be3144;
-  width: 100%;
-  z-index: 4;
-} */
+
 
 #nav-menu > div {
 display: flex;
@@ -110,7 +106,7 @@ hr{
   width: 100%;
   margin-bottom: 4%;
   border: none;
-  border-bottom: 5px solid #be3144;
+  border-bottom: 5px solid rgb(173,216,230);
 }
 
 #demo {
@@ -195,7 +191,7 @@ font-size: larger;
   display: flex;
   justify-content: center;
   font-size: 37px;
-  color: #be3144;
+  color: rgb(173,216,230);
   padding: 10px;
 }
 

@@ -1,8 +1,8 @@
-function roleTyper() {
+function myPortfolio() {
     if(i < txt.length){
       document.getElementById("demo1").innerHTML += txt.charAt(i);
       i++;
-      setTimeout(roleTyper, speed);
+      setTimeout(myPortfolio, speed);
     }
     else {
      
@@ -11,14 +11,14 @@ function roleTyper() {
       document.getElementById("demo1").innerHTML = "";
       // make the recursive call
     
-      setTimeout(roleTyper, speed);
+      setTimeout(myPortfolio, speed);
     }
   }
 
   let i=0;
 let txt="A  Full Stack Web Developer.";
 let speed=100;
-roleTyper()
+myPortfolio()
 
   
   var myNav = document.getElementById('nav-menu');
