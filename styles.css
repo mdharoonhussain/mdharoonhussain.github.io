@@ -50,12 +50,25 @@ align-items: center;
   text-decoration: none;
 }
 
+#nav-menu > div > button {
+  padding: 6px 11px;
+  font-size: 18px;
+  margin: 4px 10px;
+  color: white;
+  text-decoration: none;
+}
+
 .nav-link:hover {
   background-color: #45567d;
   border-radius: 5px;
   cursor: pointer;
 }
 
+#resume-button-1:hover{
+  background-color: #45567d;
+  border-radius: 5px;
+  cursor: pointer;
+}
 #home {
   padding: 20px;
   display: flex;
@@ -346,7 +359,7 @@ margin-left: 5%;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #be3144;
+  background-color: rgb(100,149,237);;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -392,7 +405,7 @@ display: none;
 
 #main {
   padding: 10px;
-  background-color: #be3144;
+  background-color:  rgb(100,149,237);;
   position: sticky;
   top: 0px;
   transition: all 0.5s ease-out;
