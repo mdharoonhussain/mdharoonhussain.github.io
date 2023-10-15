@@ -41,15 +41,15 @@ myPortfolio()
   });
 
   document.getElementById("resume-button-1").onclick=()=>{
-window.open("https://drive.google.com/file/d/1u2uVpZsao6bXZG_iLmmIkF7DMHNSrBSM/view?usp=share_link");
+window.open("https://drive.google.com/file/d/1TUPjTAWPN36kQJYu1DJJ7Jvjla_3teWk/view?usp=sharing");
   }
 
   document.getElementById("resume-button-2").onclick=()=>{
-    window.open("https://drive.google.com/file/d/1u2uVpZsao6bXZG_iLmmIkF7DMHNSrBSM/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1TUPjTAWPN36kQJYu1DJJ7Jvjla_3teWk/view?usp=sharing");
   }
 
   document.getElementById("resume-button-3").onclick=()=>{
-    window.open("https://drive.google.com/file/d/1u2uVpZsao6bXZG_iLmmIkF7DMHNSrBSM/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1TUPjTAWPN36kQJYu1DJJ7Jvjla_3teWk/view?usp=sharing");
   }
      
   
