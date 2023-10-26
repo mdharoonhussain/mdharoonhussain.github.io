@@ -31,20 +31,10 @@ a{
 #resume-button-1 ,#resume-button-2{
   border-radius: 7px;
   padding: 6px 11px;
-  /* border: 2px solid #be3144; */
   background-color: rgb(119,136,153);
-  /* margin-left: 15%; */
   border: none;
   font-size: 18px;
 }
-/* #resume-button-1 > a {
-  text-decoration: none;
-} */
-/* .nav-colored {
-  background-color: #be3144;
-  width: 100%;
-  z-index: 4;
-} */
 
 #nav-menu > div {
 display: flex;
