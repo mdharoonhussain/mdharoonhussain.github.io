@@ -19,7 +19,7 @@ a{
 
 #nav-menu{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: fixed;
   top: 0;
   transition: all 0.5s ease-out;
@@ -32,8 +32,14 @@ a{
   border-radius: 7px;
   padding: 6px 11px;
   /* border: 2px solid #be3144; */
-  background-color: rgb(119,136,153)
+  background-color: rgb(119,136,153);
+  /* margin-left: 15%; */
+  border: none;
+  font-size: 18px;
 }
+/* #resume-button-1 > a {
+  text-decoration: none;
+} */
 /* .nav-colored {
   background-color: #be3144;
   width: 100%;
@@ -46,6 +52,9 @@ vertical-align: middle;
 align-items: center;
 }
 
+.tools {
+  margin-top: 10%;
+}
 .name {
   
   font-size: 25px;
@@ -57,7 +66,7 @@ align-items: center;
   font-size: 18px;
   margin: 4px 10px;
   color: white;
-  text-decoration: none;
+  border: none;
 }
 
 .nav-link:hover {
@@ -77,12 +86,12 @@ align-items: center;
 }
 
 #home>img{
-  width: 40%;
+  width: 25%;
   margin: 0% 7%;
   border-radius: 40px;
   transition:transform .6s;
   top: 30%;
-  left: 50%;
+  left: 40%;
 
 }
 
